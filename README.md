@@ -3,8 +3,6 @@
 [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in
 Julia (using [Agents.jl](https://juliadynamics.github.io/Agents.jl/stable/)).
 
-![demo](./game_of_life.mp4)
-
 ## Setup
 
 1. Activate Julia environment: `julia --project=.`
