@@ -10,4 +10,4 @@ Julia (using [Agents.jl](https://juliadynamics.github.io/Agents.jl/stable/)).
 
 ## Run
 
-To run Pluto: `julia src/game_of_life.jl`
+To run: `julia src/game_of_life.jl`
