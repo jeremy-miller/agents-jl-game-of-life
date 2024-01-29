@@ -65,15 +65,13 @@ plotkwargs = (
     ),
 )
 
-abmvideo(
-    "game_of_life.mp4",
-    model,
-    dummystep,
-    game_of_life_step!;
-    title="Game of Life",
-    framerate=10,
-    frames=60,
-    plotkwargs...,
+fig, ax, abmp = abmplot(
+    model;
+    (agent_step!)=dummystep,
+    (model_step!)=game_of_life_step!,
+    plotkwargs...
 )
+
+fig
 
 end # module game_of_life
